@@ -13,6 +13,7 @@ const addCartItem = (cartItems, productToAdd) => {
     );
   }
 
+
   return [...cartItems, { ...productToAdd, quantity: 1 }];
 };
 
